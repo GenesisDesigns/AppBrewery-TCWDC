@@ -29,3 +29,11 @@ if (currentTime >= 0 && currentTime < 12) {
   customStyles.color = "blue";
 }
 
+ReactDOM.render(
+  <div>
+    <h1 style={customStyles}>{greetings}</h1>
+  </div>,
+  document.getElementById("root")
+);
+
+
