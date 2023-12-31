@@ -11,3 +11,8 @@ const customStyles = {
   fontSize: "30px",
   borderBottom: "5px solid black",
 };
+
+const pokemonName = "Pikachu";
+const date = new Date(2019, 1, 2, 7);
+const currentTime = date.getHours();
+
